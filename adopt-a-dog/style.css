@@ -1,0 +1,88 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.hero{
+    background-color: black;
+    background-image: url(images/header-images/header-medium.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.container{
+   max-width: 80%;
+   margin-left: 10rem;
+
+}
+
+.title{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    color: #81B741;  
+}
+
+.logo{
+    width: 15%;
+    cursor: pointer;
+}
+
+.cart{
+    float: right;
+    width: 15%;
+    cursor: pointer;
+    text-align: right;
+}
+
+.cart-button {
+    background-color: #81B741;
+    boarder-radius: 25px;
+    color: whitesmoke;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+
+.adopt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: whitesmoke; 
+    margin: 0px;
+}
+
+
+
+h2{
+    margin: 0px;
+}
+
+.right{
+    text-align: right;
+}
+
+footer{
+    background-color: #093C60;
+    color: whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.end{
+    text-align: center;
+    color: whitesmoke;
+}
+h3.adopt{
+    
+}
